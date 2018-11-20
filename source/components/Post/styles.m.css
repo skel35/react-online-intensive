@@ -1,9 +1,8 @@
 .post {
     position: relative;
     width: 500px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 12px;
-    border: 1px solid var(--paletteColor3);
     border-radius: 3px;
     background-color: var(--paletteColor2);
     word-wrap: break-word;
@@ -23,6 +22,7 @@
         left: 60px;
         text-decoration: none;
         cursor: pointer;
+
         &:hover {
             text-decoration: underline;
         }
@@ -45,7 +45,7 @@
         font-size: 14px;
     }
 
-    .cross {
+    & .cross {
         content: '';
         position: absolute;
         top: 12px;
